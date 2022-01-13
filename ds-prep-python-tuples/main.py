@@ -1,14 +1,12 @@
 passenger = (12, True, "Bonnell, Miss. Elizabeth", "female", 58)
 print(passenger)
 name = passenger[2]
-print(name)
 age = passenger[-1]
-print(age)
 print(name, age)
 survived_and_name = passenger[1:3]
-print(survived_and_name)
-gender_and_age = passenger[3:5]
-print(gender_and_age)
+print("survived and name: ", survived_and_name)
+gender_and_age = passenger[-2:]
+print("gender and age: ", gender_and_age)
 print(survived_and_name, gender_and_age)
 
 
