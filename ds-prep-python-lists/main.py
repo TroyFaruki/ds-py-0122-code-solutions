@@ -16,7 +16,7 @@ print(ages)
 
 temp = ages[4]
 ages[4] = ages[3]
-temp = ages[3]
+ages[3] = temp
 print("Instruction 15: ",ages)
 
 ages.append(45)
