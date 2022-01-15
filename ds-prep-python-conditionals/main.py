@@ -1,6 +1,6 @@
-day_of_week = "saturday"
+day_of_week = "monday"
 
-if day_of_week == "saturday" or "sunday":
+if day_of_week == "saturday" or day_of_week == "sunday":
   print("Have a good weekend")
 else:
   print("It's a weekday!")
@@ -14,7 +14,7 @@ else:
 
 print(student_1_score, pass_or_fail)
 
-student_2_score = 76
+student_2_score = 101
 
 if student_2_score < 60:
   letter_grade = "F"
@@ -27,7 +27,6 @@ elif student_2_score >= 80 and student_2_score < 90:
 elif student_2_score >= 90 and student_2_score < 100:
   letter_grade = "A"
 else:
-  student_2_score >= 100
   letter_grade = "A+"
 
 print(student_2_score, letter_grade)
